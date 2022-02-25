@@ -1,0 +1,404 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An elegy on the death of Mr. James Bristow, late fellow of All-souls</title>
+            <author>Palmer, Edward, 1646 or 7-1670.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1667</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 12 KB of XML-encoded text transcribed from 6 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A54887</idno>
+            <idno type="STC">Wing P224</idno>
+            <idno type="STC">ESTC R17863</idno>
+            <idno type="EEBO-CITATION">11864457</idno>
+            <idno type="OCLC">ocm 11864457</idno>
+            <idno type="VID">50071</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A54887)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 50071)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 503:16)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An elegy on the death of Mr. James Bristow, late fellow of All-souls</title>
+                  <author>Palmer, Edward, 1646 or 7-1670.</author>
+               </titleStmt>
+               <extent>10 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by W.H. for Fran. Oxlad. Jun.,</publisher>
+                  <pubPlace>Oxford [Oxfordshire]:</pubPlace>
+                  <date>1667.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to Edward Palmer.  Cf. Halkett &amp; Laing (2nd ed.)</note>
+                  <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bristow, James, d. 1667.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-08</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-12</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2009-12</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:50071:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 89 -->
+            <p>AN ELEGY On the death of Mr. JAMES BRISTOW, Late Fellow of All-ſouls,</p>
+            <q>
+               <p>Immodicis brevis eſt aetas, &amp; rara ſenectus.</p>
+               <bibl>
+                  <hi>Mart.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>OXFORD,</hi> Printed by <hi>W. H.</hi> for <hi>Fran. Oxlad.</hi> Jun. 1667</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:50071:2"/>
+            <!-- PDF PAGE 90 -->
+            <pb n="3" facs="tcp:50071:2"/>
+            <!-- PDF PAGE 90 -->
+            <head>TO THE MEMORY Of that moſt Ingenious Gentleman, Mr. <hi>JAMES BRISTOW,</hi> Late Fellow of All-ſouls; His moſt Deſervedly Admired Friend.</head>
+            <lg n="1">
+               <l>OH! never tell me then <hi>again,</hi>
+               </l>
+               <l>That Death <hi>before</hi> did ever Tyrannize,</l>
+               <l>Though <hi>Thouſands</hi> lately fell her Prize;</l>
+               <l>You doe perſwade in vain;</l>
+               <l>This year ſhe greater Power Shows,</l>
+               <l>Though fewer <hi>feel,</hi> more <hi>curſe</hi> her Blows:</l>
+               <l>This year fell <hi>Cowly,</hi> and this year <hi>He</hi> fell,</l>
+               <l>Who of us all that in <hi>Parnaſſus</hi> dwell,</l>
+               <l>Next claim'd as due <hi>Apollo</hi>'s Lawrell Crown,</l>
+               <l>Alwayes on <hi>Wit</hi> Entayl'd, though not o'th <hi>Gown.</hi>
+               </l>
+               <l>Death when it ſtruck thoſe two, did more</l>
+               <l>Then the Devouring <hi>Plague</hi> before.</l>
+               <l>It is the <hi>Worth,</hi> not <hi>Number</hi> of the Dead,</l>
+               <l>Which proves Fate <hi>Cruell</hi> and <hi>Unlimited.</hi>
+               </l>
+               <l>Thus ſome who all their baſer Captives ſpare,</l>
+               <l>That are not worth a <hi>Victors</hi> Care,</l>
+               <l>If by their hands the Noble <hi>Leaders</hi> dye,</l>
+               <l>Think they by this <hi>out-doe</hi> their <hi>Victory.</hi>
+               </l>
+               <l>And thus more honour gain,</l>
+               <l>Then if the <hi>Conquer'd Army</hi> they had ſlain.</l>
+            </lg>
+            <pb n="4" facs="tcp:50071:3"/>
+            <!-- PDF PAGE 91 -->
+            <lg n="2">
+               <head>2.</head>
+               <l>We knew that <hi>Goodneſs,</hi> and we knew that <hi>Wit</hi>
+               </l>
+               <l>Muſt ſooneſt to Deaths laws ſubmit;</l>
+               <l>But Oh! we never thought that <hi>Fate</hi>
+               </l>
+               <l>Should prove more hard to <hi>You,</hi>
+               </l>
+               <l>And ſhew a greater hate,</l>
+               <l>Then heretofore to <hi>Wit</hi> ſhe uſ'd to doe.</l>
+               <l>To <hi>Cowley</hi> kinder <hi>Stars</hi> did yeild,</l>
+               <l>That he his <hi>Monument</hi> might build;</l>
+               <l>VVhich he, like ſome who ſtill ſuſpicious are</l>
+               <l>Of their <hi>Succeſſors</hi> love and care,</l>
+               <l>For his own ſelf, with his <hi>Immortall</hi> hand did rear.</l>
+               <l>But <hi>Thee</hi> death unawares ſurpriz'd,</l>
+               <l>Elſe ſhe had never Excerciſ'd</l>
+               <l>Over thy <hi>Wit</hi> her <hi>Cruelty,</hi>
+               </l>
+               <l>And <hi>doubly</hi> had rob'd us of Thee:</l>
+               <l>Thy Off-ſpring might have dar'd her Tyranny.</l>
+            </lg>
+            <lg n="3">
+               <head>3.</head>
+               <l>VVhen to a Merchant, and his goods ſome wave,</l>
+               <l>As greedy as himſelfe, affords a grave;</l>
+               <l>(His Gold as low in water being hid,</l>
+               <l>As in its <hi>Mother Earth</hi> when buried)</l>
+               <l>His friends may juſtly grieve thus <hi>doubly</hi> Croſt;</l>
+               <l>Having both <hi>Him,</hi> and all his treaſures loſt.</l>
+               <l>As juſtly thus grieve we,</l>
+               <l>Thus <hi>double</hi> is our Miſery,</l>
+               <l>Not onely that we have loſt you,</l>
+               <l>But your great <hi>thoughts,</hi> that Richeſt Treaſure too.</l>
+               <l>Ah Cruell death, that Legacie</l>
+               <pb n="5" facs="tcp:50071:3"/>
+               <!-- PDF PAGE 91 -->
+               <l>His Friends claim'd as their due.</l>
+               <l>Had he but leſt the picture of his minde,</l>
+               <l>VVe had not thought thee death unkind.</l>
+               <l>A <hi>Cunning Coward</hi> thou wert ſure,</l>
+               <l>Thou cam'ſt not fairly on, nor warning gave,</l>
+               <l>Elſe he had never fear'd the grave:</l>
+               <l>He by his <hi>Pen</hi> had been ſecure.</l>
+               <l>
+                  <hi>Mark Antony</hi> could <hi>Tully</hi> never kill,</l>
+               <l>And <hi>Seneca</hi> lives yet, in <hi>ſpight</hi> of <hi>Nero's</hi> will.</l>
+            </lg>
+            <lg n="4">
+               <head>4.</head>
+               <l>Tell me, ye <hi>Fatall Sisters,</hi> do you not</l>
+               <l>Lament <hi>Your ſelves</hi> when ſuch muſt dye;</l>
+               <l>VVhen VVit and Folly muſt together lye,</l>
+               <l>And have one Common lot?</l>
+               <l>Methinks ſome <hi>Palſie</hi> Head, ſome <hi>Piece</hi> of Man,</l>
+               <l>Who hath <hi>outliv'd</hi> himſelfe beyond his ſpan;</l>
+               <l>One halfe of whom was buried long a goe,</l>
+               <l>Whoſe living Part is rotten too,</l>
+               <l>Who to ſome Courteous Ioyner Owes,</l>
+               <l>For <hi>Arms,</hi> and <hi>Hands,</hi> and <hi>Legs,</hi> and <hi>Toes,</hi>
+               </l>
+               <l>Might you (dire Siſters) very well Suffice,</l>
+               <l>There you with little Pains might Kill, &amp; Tyrannize;</l>
+               <l>But if your Envy fly at <hi>Wit,</hi>
+               </l>
+               <l>You might your Cruelty Commit</l>
+               <l>On One who once profeſſed it,</l>
+               <l>But did his <hi>Vein</hi> long ſince <hi>outlive,</hi>
+               </l>
+               <l>To whom the Muſes once a flame did give,</l>
+               <l>But now the <hi>Man</hi> the <hi>Poet</hi> doth ſurvive?</l>
+               <l>Thus <hi>decay'd Wit</hi> might pleaſe you, &amp; you might,</l>
+               <l>with thoſe rich <hi>remnants,</hi> &amp; <hi>brave Reliques</hi> glut your ſpight.</l>
+            </lg>
+            <pb n="6" facs="tcp:50071:4"/>
+            <!-- PDF PAGE 92 -->
+            <lg n="5">
+               <head>5.</head>
+               <l>Tell me, you Cruell <hi>Stars,</hi> why you</l>
+               <l>Did thus <hi>Conſent</hi> unto his fall?</l>
+               <l>He from your <hi>Phoebus</hi> own'd his Call,</l>
+               <l>And from him he had his <hi>light</hi> too.</l>
+               <l>And how could you (bright Sun) thus Cruell be</l>
+               <l>To your own Votary?</l>
+               <l>But how alas I talk in Vain!</l>
+               <l>Oh! how do I profaine!</l>
+               <l>As if That God which once did him Inſpire</l>
+               <l>With his kind heat, ſhould <hi>kill</hi> him with his fire.</l>
+               <l>But if you did, great <hi>Phaebus,</hi> you did know</l>
+               <l>So brave, So rich a Soul</l>
+               <l>Was never ſent to be on Earth confin'd,</l>
+               <l>Or to be pent up here below.</l>
+               <l>Great Souls, like the <hi>Pellaean Youth,</hi> lye here</l>
+               <l>
+                  <hi>Panting</hi> on Earth, Impriſon'd, &amp; want Air;</l>
+               <l>From which by death when freed, then firſt they riſe</l>
+               <l>From their own <hi>graves,</hi> and then <hi>begin</hi> their Lives.</l>
+               <l>Thus have the kinder <hi>Stars</hi> him <hi>ſav'd</hi> by Death,</l>
+               <l>And <hi>damn'd</hi> us here below to draw our breath.</l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>Thus now at once the Heavens we know</l>
+               <l>May Cruelty and kindneſs ſhow.</l>
+               <l>We from his Joyes Our greater ſorrows date,</l>
+               <l>His Death was only unto us a <hi>Fate.</hi>
+               </l>
+               <l>But when all loſe, why thus grieve I alone?</l>
+               <l>Now all <hi>Parnaſſus</hi> ſhould weep Elegies.</l>
+               <l>VVith him lyes buried a Philoſopher,</l>
+               <pb n="7" facs="tcp:50071:4"/>
+               <!-- PDF PAGE 92 -->
+               <l>VVith him a <hi>Poet</hi> and an <hi>Orator;</hi>
+               </l>
+               <l>VVe have loſt Three in One.</l>
+               <l>And what in youth or Age was found,</l>
+               <l>VVas in that <hi>Narrow Compaſs</hi> bound.</l>
+               <l>Few years alaſs! (too few) he told,</l>
+               <l>And yet in all things, but <hi>years</hi> Old.</l>
+               <l>His learned Muſe was ſoft, and ſmooth, and high,</l>
+               <l>Which had he publiſh'd (as all now adayes)</l>
+               <l>Beſt Poets might reſign their Bayes.</l>
+               <l>But Oh! his Modeſty did this deny;</l>
+               <l>And yet he was not leſs, becauſe leſs known;</l>
+               <l>As <hi>Stars</hi> which our <hi>Horizon</hi> never light,</l>
+               <l>Their dazling beauty is to Others ſhown,</l>
+               <l>And ſhine as fair, though hid from our unhappy ſight.</l>
+            </lg>
+            <lg n="7">
+               <head>7.</head>
+               <l>But Since th' art gone, would I too might retire,</l>
+               <l>My ſelfe I ſtrangely alter'd ſee;</l>
+               <l>VVhom once I did but ſilently admire</l>
+               <l>(For more my Envy did deny)</l>
+               <l>I now confeſs he will my Idol be;</l>
+               <l>O ſure I'm much too vaine,</l>
+               <l>(As Heathens Once) to worſhip <hi>Man</hi> againe:</l>
+               <l>But yet in this I give thee more thy due,</l>
+               <l>Then when the <hi>Wit</hi> I ſaw, I never praiſ'd in <hi>you.</hi>
+               </l>
+               <l>Oh! then, <hi>(dear Saint)</hi> I beg it at thy <hi>Shrine,</hi>
+               </l>
+               <l>Forgive (for now thou art Divine)</l>
+               <l>Forgive, I ſay, that once he Envy'd Thee,</l>
+               <l>(And who would not thy <hi>Poetry?</hi>)</l>
+               <l>VVho now in Verſe this pious Tribute payes,</l>
+               <l>And now at laſt does ſpeak thy Praiſe.</l>
+               <l>But yet what do I doe?</l>
+               <pb n="8" facs="tcp:50071:5"/>
+               <!-- PDF PAGE 93 -->
+               <l>I wrong'd Thee then, and now I wrong Thee too;</l>
+               <l>As if Poor I, thy worth could e're reherſe;</l>
+               <l>A Theme for one who only writes like you,</l>
+               <l>A Theme for ſome Immortall Verſe.</l>
+               <l>Thus ſome dull Lover, who long dumb hath bin,</l>
+               <l>But can not ſo his Miſtris win,</l>
+               <l>Ventures at length to Rhyme upon her Name,</l>
+               <l>Thinking poor Fool he ſings her fame;</l>
+               <l>His meaning's good, yet ſhe more angry growes,</l>
+               <l>He his own <hi>folly</hi> thus, not her <hi>Wit</hi> ſhowes.</l>
+            </lg>
+            <lg n="8">
+               <head>8.</head>
+               <l>Then All you VVits that In <hi>Elizium</hi> dwell,</l>
+               <l>All you that Tragick Stories tell;</l>
+               <l>All you of learned Greece, and you</l>
+               <l>Of <hi>Rome</hi> as Learned too,</l>
+               <l>I Summon now to meet at this great Herſe,</l>
+               <l>The Nobleſt <hi>Subject</hi> for your Verſe.</l>
+               <l>Let <hi>Sophocles</hi> his <hi>Buſkins</hi> there put on;</l>
+               <l>Let <hi>Seneca</hi> too thither Come;</l>
+               <l>There with your <hi>Moving Accents</hi> ſing his fame,</l>
+               <l>And in the doleful'ſt Tones repeat his Name:</l>
+               <l>You need not make new Elegies; ſing o're</l>
+               <l>What you of VVorthies ſung before:</l>
+               <l>In no new Tune you need complain,</l>
+               <l>For they in Him do but dye o're again.</l>
+               <l>Make us too, ſenſible of our great loſse,</l>
+               <l>VVho are diſtracted with ſo great a Croſse.</l>
+               <l>Great blowes are not ſoon felt, for we</l>
+               <l>As yet weigh not our Miſery.</l>
+               <l>Firſt make us underſtand his VVorth that's gone,</l>
+               <l>Then with your charming Rhet'rick teach us how to moan.</l>
+               <pb n="9" facs="tcp:50071:5"/>
+               <!-- PDF PAGE 93 -->
+               <l>Unhappy Chance! I thought to ſay no more,</l>
+               <l>And <hi>Looks</hi> ſhould ſpeak, what did my <hi>Tongue</hi> before.</l>
+               <l>But Oh! me thoughts I ſaw him diſappear:</l>
+               <l>His weeping Friends ſurpriz'd with griefe and fear;</l>
+               <l>Thus, the poor <hi>Perſians,</hi> when their Sun's to ſet</l>
+               <l>In watry <hi>Tethys</hi> lap, with Eyes as VVet,</l>
+               <l>As is his bed, ſadly reſent his fall,</l>
+               <l>Expecting now his Funerall.</l>
+               <l>'Tis Strange! ſo <hi>
+                     <g ref="char:V">Ʋ</g>nconcern'd</hi> he was, ſo <hi>glad</hi>
+               </l>
+               <l>To part with breath, his freinds ſo <hi>ſad</hi>
+               </l>
+               <l>To part with him; ſo much they <hi>grieve,</hi>
+               </l>
+               <l>As if They were to <hi>Dye,</hi> and He to <hi>Live;</hi>
+               </l>
+               <l>He Checks their griefe, at once <hi>ſevere</hi> &amp; <hi>kind,</hi>
+               </l>
+               <l>For Death could not debaſe his <hi>Gen'rous</hi> mind.</l>
+               <l>So dyeing <hi>Cato</hi> look'd when He</l>
+               <l>In <hi>Plato</hi> found his <hi>Immortality.</hi>
+               </l>
+               <l>Then too methoughts I heard his dyeing words,</l>
+               <l>Compoſ'd of all that Eloquence affords;</l>
+               <l>You would have thought (as <hi>Condemn'd</hi> Men,</l>
+               <l>VVho at their <hi>Exit</hi> begge a <hi>Plaudite</hi>)</l>
+               <l>He <hi>made</hi> them long agoe, but <hi>ſpoke</hi> them then,</l>
+               <l>And yet alaſs! for all this He muſt <hi>dye.</hi>
+               </l>
+            </lg>
+            <lg n="10">
+               <head>10.</head>
+               <l>Now thou, Unhappy <hi>Colledge,</hi> guard his Duſt,</l>
+               <l>Happy in that thou haſt that Truſt.</l>
+               <l>And when you ſpeak of <hi>Digges,</hi> remember then</l>
+               <l>In <hi>This</hi> great Soul, you have loſt him again.</l>
+               <l>And here I charge you all before the <hi>Nine,</hi>
+               </l>
+               <l>As you will anſwer for your Crime</l>
+               <l>Before <hi>Apollo,</hi> that if any have</l>
+               <l>His Verſe, they would not too give <hi>That</hi> a grave.</l>
+               <pb n="10" facs="tcp:50071:6"/>
+               <!-- PDF PAGE 94 -->
+               <l>For happy we ſhall be <hi>(great Soul)</hi> when You</l>
+               <l>Returne more known, and yet leſs Envi'd too.</l>
+               <l>Then let none dare to Rob the Publick ſo,</l>
+               <l>
+                  <hi>That</hi> he to all his Freinds doth owe.</l>
+               <l>Therefore who ſhall ſuch Felony Commit,</l>
+               <l>Shall be Arraign'd for That, and <hi>Falſe impriſon'd</hi> VVit.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:50071:6"/>
+            <!-- PDF PAGE 94 -->
+         </div>
+      </body>
+   </text>
+</TEI>
